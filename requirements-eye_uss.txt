@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+numpy
+opencv-python
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+scipy
+scikit-image
+scikit-learn
+matplotlib
+tqdm
