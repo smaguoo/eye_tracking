@@ -25,7 +25,7 @@ online_ellseg.run_gaze_display
 
 它只保留单目纯几何流程。`--geometry` 参数仍可写在命令里，目前是兼容参数；该入口始终使用纯几何模型。
 
-## 外部 EllSeg 依赖
+## 外部 EllSeg 的依赖
 
 本项目复用外部 EllSeg/DenseElNet 仓库。默认路径目前是本机开发路径：
 
