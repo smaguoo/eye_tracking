@@ -1,4 +1,4 @@
-"""Online EllSeg/DenseElNet pupil-ellipse tracking framework."""
+"""Online_EllSeg/DenseElNet pupil-ellipse tracking framework."""
 
 __all__ = [
     "camera",
