@@ -328,7 +328,7 @@ def capture_samples_from_camera(args, pattern_size: tuple[int, int]) -> tuple[li
         raise RuntimeError("No camera frames were captured.")
     return samples, image_size
 
-
+###
 def calibrate(
     samples: list[CalibrationSample],
     image_size: tuple[int, int],
