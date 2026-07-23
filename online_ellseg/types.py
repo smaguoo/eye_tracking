@@ -161,7 +161,7 @@ class EllipseObservation:
 
 
 def invalid_ellipse() -> EllipseTuple:
-    return (-1.0, -1.0, -1.0, -1.0, -1.0)
+    return (-1.0, -1.0, -1.0, -1.0, -1.00)
 
 
 def ellipse_to_tuple(value: Iterable[float]) -> EllipseTuple:
