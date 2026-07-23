@@ -118,7 +118,7 @@ def wait_for_first_frame(
     deadline = time.perf_counter() + timeout
     warmup_deadline = time.perf_counter() + max(0.0, float(warmup_seconds))
     latest = None
-    latest_timestamp = 0.0
+    latest_timestamp = 0.00
     while time.perf_counter() < deadline:
         ok, frame, timestamp = camera.read_latest()
         if ok:
