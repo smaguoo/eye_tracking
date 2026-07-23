@@ -24,7 +24,7 @@ class GazeMapping:
     phi_wrap: bool = False
     feature_means: List[float] | None = None
     feature_scales: List[float] | None = None
-    feature_clip: float = 4.0
+    feature_clip: float = 4.00
 
     def predict_values(self, values: Dict[str, float]) -> Tuple[float, float]:
         values = dict(values)
